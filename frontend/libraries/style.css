@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: poppins;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #fff;
+}
+.btn-login:hover {
+  background-color: #1e3772;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0 165px;
+  background-image: linear-gradient(
+      rgba(255, 122, 0, 0.5),
+      rgba(0, 0, 255, 0.5)
+    ),
+    url("../images/buku1.jpg");
+  background-size: cover;
+  margin-top: -70px;
+}
+header h1,
+header p {
+  color: #ffffff;
+}
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+header p {
+  font-size: 22px;
+}
+header .btn-get-started {
+  background-color: #ff9e53;
+  color: #ffffff;
+}
+header .btn-get-started:hover {
+  background-color: #ffaa69;
+  color: #ffffff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+  color: #fff;
+}
+.section-popular .section-popular-heading h2 {
+  font-family: "playfair display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+  box-shadow: -12px 13px 13px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -12px 13px 13px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: -12px 13px 13px 2px rgba(0, 0, 0, 0.6);
+}
+.section-popular-content
+  .section-popular-travel
+  .travel-button
+  .btn-travel-details {
+  background-color: #ff9e53;
+  color: #fff;
+}
+.section-popular-content
+  .section-popular-travel
+  .travel-button
+  .btn-travel-details:hover {
+  background-color: #ffae6f;
+  color: #fff;
+}
+.sesion {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.sesion h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #2f281e;
+}
+.list-section .card-list-popular {
+  min-height: 340px;
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+  box-shadow: -12px 13px 13px 2px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -12px 13px 13px 2px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -12px 13px 13px 2px rgba(0, 0, 0, 0.6);
+}
+.list-section .card-list-popular:hover { 
+    transform: scale(1.1);
+    filter: grayscale(0%);   
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+
+.section-footer a {
+  color: #071c4d;
+  text-decoration: none;
+}
+.section-footer a:hover {
+  color: #071c4d;
+  text-decoration: underline;
+}
